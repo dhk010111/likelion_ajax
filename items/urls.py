@@ -9,5 +9,5 @@ urlpatterns = [
     path('show/<int:post_id>/', views.show, name="show"),
     path('delete/<int:post_id>/', views.delete, name="delete"),
 
-    #
+    # 1. like_toggle url 연결하기
 ]
